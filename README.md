@@ -26,6 +26,7 @@ npm i body-parser express mongodb mongoose
 npm start 
 ```
 5. Run this code to build the ocker Compose
+
 ```
 docker-compose build 
 ```
@@ -33,4 +34,9 @@ docker-compose build
 
 ```
 docker-compose up -d 
+```
+7. To see the running containers
+
+```
+docker ps
 ```
