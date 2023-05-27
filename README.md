@@ -40,3 +40,28 @@ docker-compose up -d
 ```
 docker ps
 ```
+8. Connect to the running Docker container and start mongo db shell
+
+```
+docker exec -it a9090a0bd182 mongosh -u "root" -p "example"
+```
+9. To see the available databases
+
+```
+show databases
+```
+10. To use the database
+
+```
+use test
+```
+11. To get the collection
+
+```
+db.getCollectionInfos()
+```
+12. To get all data (In the products collection)
+
+```
+ db.products.find()
+ ```
